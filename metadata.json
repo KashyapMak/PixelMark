@@ -1,0 +1,6 @@
+{
+  "name": "PixelMark",
+  "description": "High-performance browser-based image markup, vector annotation, redaction, and export tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
