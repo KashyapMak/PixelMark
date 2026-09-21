@@ -87,7 +87,7 @@ PixelMark is built as a pure client-side single-page web application with zero e
 ## Getting Started
 
 ### Prerequisites
-- **Node.js**: Version 20.x or higher recommended
+- **Node.js**: Version 22.x LTS (or 20.x+) recommended
 - **NPM**: Version 9.x or higher
 
 ### Installation
@@ -159,11 +159,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run TypeScript type check / lint
         run: npm run lint
